@@ -1,0 +1,17 @@
+# graph/schema.graphqls
+type Joke {
+  id: Int!
+  content: String!
+}
+
+
+
+type User {
+  id: Int!
+  username: String!
+}
+
+type Query {
+  joke(id: Int!): Joke!
+  user(id: Int!): User!
+}

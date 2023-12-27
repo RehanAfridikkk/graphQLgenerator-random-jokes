@@ -1,0 +1,9 @@
+# gqlgen.yml
+models:
+  User:
+    model: graphQLGEN/graph/model.User
+  # Add other models as needed
+
+exec:
+  filename: graph/generated/generated.go
+  package: generated
